@@ -1,0 +1,19 @@
+body{
+    backgroud-color: rgba(255,192,203, 0.5);
+}
+
+h1{
+    color: green;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+table tr th {
+    color: grey;
+}
+table tr th:first-child,
+table tr td:first-child{
+color: red;
+}

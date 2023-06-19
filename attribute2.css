@@ -1,0 +1,80 @@
+.d-block{
+    display: block;
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.d-inline{
+    display: inline;
+    background-color: pink;
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.d-inline-block{
+    display: inline-block;
+    background-color: yellowgreen;
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+/* min & max */
+
+.parent{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+}
+.box{
+    background-color: aqua;
+    border: 1px solid black;
+}
+.box-px{
+    width: 50px;
+    height: 50px;
+}
+.box-view{
+    width: 50vw;
+    height: 50vw;
+}
+.box-per{
+    width: 50%;
+    height: 50%;
+}
+.rem{
+    font-size: 2rem;
+}
+.em{
+    font-size: 2em;
+}
+.square{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.rounded{
+    border-radius: 50px;
+    border-radius: 10%;
+    /* 단축속성 */
+    border-radius: 5px 40;
+}
+.box-sizing{
+    padding: 20px;
+    border: 15px solid red;
+    background-color: tomato;
+}
+.content-box{
+    /* 기본값!! */
+    box-sizing: border-box;
+    
+}
