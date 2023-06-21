@@ -1,0 +1,46 @@
+body{
+    height: 2000px;
+    background: linear-gradient(white, orange);
+
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 100px;
+}
+
+.position-static{
+    background-color: red;
+    position: static;
+    top:100px;
+    left: 50px;
+}
+/* relative - 자기자신을 기준으로 이동 문서 흐름을 해치지 않아요!*/
+.position-relative{
+    background-color: orange;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+/*1. 기준이 없을 때는 viewport를 기준으로 이동
+2. 문서 흐름을 해칩니다. */
+.position-absolute{
+    width: 80px;
+    height:80px;
+    background-color: gold;
+    position: absolute;
+    top: 100px;
+    left:100px;
+}
+/* fixed - 뷰포트를 기준으로 움직임
+스크롤이 되어도 움직이지 않음 */
+.position-fixed{
+    background-color: green;
+    position: 300px;
+    left: 300px;
+    right: 100px;
+
+}

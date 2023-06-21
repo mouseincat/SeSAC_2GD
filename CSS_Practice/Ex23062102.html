@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>실습2_230621</title>
+    <style>
+      .container {
+        width: 500px;
+        height: 500px;
+        border: 2 solid red;
+        position: relative;
+        background-color: red;
+      }
+      .container div {
+        width: 100px;
+        height: 100px;
+        border: 2 solid greenyellow;
+      }
+      .item1 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: aqua;
+        z-index: 1;
+      }
+      .item2 {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        background-color: green;
+        z-index: 2;
+      }
+      .item3 {
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        background-color: blue;
+        z-index: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      0
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </div>
+  </body>
+</html>
