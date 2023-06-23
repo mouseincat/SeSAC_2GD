@@ -1,0 +1,21 @@
+/* 가상 요소 선택자 */
+/* ::after, ::before
+
+*/
+
+.h3 {
+  background-color: yellow;
+}
+
+.h3::after {
+  content: " after";
+  color: #888;
+}
+
+.h3::before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 50px;
+  background-color: red;
+}

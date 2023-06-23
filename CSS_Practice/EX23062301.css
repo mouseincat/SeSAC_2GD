@@ -1,0 +1,24 @@
+.header1 {
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+span{
+    background-color: grey;
+}
+ul {
+    list-style: none;
+}
+.menus {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    font-size: 1rem;
+    text-align: center;
+    line height: 100px;
+
+}
