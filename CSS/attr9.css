@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+  z-index: 100;
+  position: fixed;
+}
+
+/* 768px 보다 클때의 header */
+header .inner {
+  /* max-width: 1200px;  */
+  height: 100%;
+  margin: 0 auto;
+  background-color: skyblue;
+}
+/* LOGO */
+header .inner i {
+}
+header .inner menu {
+}
+header .inner .menu .li {
+}
+
+/* 768px 보다 작을때 header  */

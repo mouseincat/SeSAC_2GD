@@ -1,0 +1,40 @@
+.ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: fixed;
+
+  top: 0px;
+  left: 0px;
+  animation: moving-edge 5s linear infinite;
+}
+body {
+  margin-top: 0;
+  margin-left: 0;
+}
+@keyframes moving-edge {
+  0% {
+    /* transform: translate(0, 0); */
+    left: 0;
+    top: 0;
+  }
+  25% {
+    /* transform: translate(calc(100vw - 100px), 0); */
+    left: calc(100vw - 100px);
+    top: 0;
+  }
+  50% {
+    /* transform: translate(calc(100vw - 100px), calc(100vh - 100px)); */
+    left: calc(100vw - 100px);
+    top: calc(100vh - 100px);
+  }
+  75% {
+    /* transform: translate(0, calc(100vh - 100px)); */
+    left: 0;
+    top: calc(100vh - 100px);
+  }
+  100% {
+    /* transform: translate(0, 0); */
+  }
+}

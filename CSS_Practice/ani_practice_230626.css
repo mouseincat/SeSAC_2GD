@@ -1,0 +1,15 @@
+.sentence1 {
+  position: absolute;
+  animation-name: throw-in;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes throw-in {
+  to {
+    right: 100%;
+  }
+  from {
+    right: 0px;
+  }
+}
